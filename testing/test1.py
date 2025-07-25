@@ -10,7 +10,7 @@ ui = pyui.UI()
 done = False
 clock = pygame.time.Clock()
 
-ui.makeButton(10, 10, 'test', clicktype=pyui.ClickType.LEFT_CLICK)
+ui.makeButton(x=10, y=10, text='test', clicktype=pyui.ClickType.LEFT_CLICK)
 
 while not done:
     for event in ui.loadtickdata():

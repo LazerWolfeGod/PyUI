@@ -122,6 +122,7 @@ class Utils:
         :param passed_kwargs: the **kwargs passed into the makeObject function
         :return: an output instance of the data_class
         """
+        print(passed_obj_params,passed_kwargs)
         if passed_obj_params is None:
             obj_params = data_class(**passed_kwargs)
         else:
